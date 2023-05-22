@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
 
-const API_KEY = "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";
-
 function App() {
   useEffect(() => {
     const inputElement = document.querySelector("input");
