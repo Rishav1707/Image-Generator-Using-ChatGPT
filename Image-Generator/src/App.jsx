@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import "./App.css";
 
+const API_KEY = import.meta.env.VITE_APIKEY;
+
 function App() {
   useEffect(() => {
     const inputElement = document.querySelector("input");
